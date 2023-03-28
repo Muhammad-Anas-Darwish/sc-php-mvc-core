@@ -1,15 +1,15 @@
 {
     "name": "silvercodes/php-mvc-core",
-    "autoload": {
-        "psr-4": {
-            "Sc\\PhpMvcCore\\": "src/"
-        }
-    },
     "authors": [
         {
             "name": "Muhammad-Anas-Darwish",
             "email": "muhammadanasdarwish1@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "silvercodes\\phpmvc": "."
+        }
+    }
 }

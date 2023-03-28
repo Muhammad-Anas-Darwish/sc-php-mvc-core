@@ -1,6 +1,6 @@
 <?php
 
-namespace app\core;
+namespace silvercodes\phpmvc;
 
 abstract class Model
 {

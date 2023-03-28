@@ -1,8 +1,8 @@
 <?php 
 
-namespace app\core;
-use app\core\db\Database;
-use app\core\db\DbModel;
+namespace silvercodes\phpmvc;
+use silvercodes\phpmvc\db\Database;
+use silvercodes\phpmvc\db\DbModel;
 
 class Application 
 {
@@ -58,12 +58,12 @@ class Application
         }
     }
 
-    public function getController(): \app\core\Controller
+    public function getController(): \silvercodes\phpmvc\Controller
     {
         return $this->controller;
     }
 
-    public function setController(\app\core\Controller $controller): void
+    public function setController(\silvercodes\phpmvc\Controller $controller): void
     {
         $this->controller = $controller;
     }

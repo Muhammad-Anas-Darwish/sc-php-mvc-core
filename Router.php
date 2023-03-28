@@ -1,7 +1,7 @@
 <?php 
 
-namespace app\core;
-use app\core\exception\NotFoundException;
+namespace silvercodes\phpmvc;
+use silvercodes\phpmvc\exception\NotFoundException;
 
 class Router 
 {

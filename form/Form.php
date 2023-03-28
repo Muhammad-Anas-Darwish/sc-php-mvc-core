@@ -1,6 +1,6 @@
 <?php
-namespace app\core\form;
-use app\core\Model;
+namespace silvercodes\phpmvc\form;
+use silvercodes\phpmvc\Model;
 
 class Form
 {

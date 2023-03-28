@@ -1,6 +1,6 @@
 <?php
 
-namespace app\core;
+namespace silvercodes\phpmvc;
 
 class Session {
     protected const FLASH_KEY = 'flash_messages';

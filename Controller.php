@@ -1,7 +1,7 @@
 <?php 
-namespace app\core;
+namespace silvercodes\phpmvc;
 
-use app\core\middlewares\BaseMiddleware;
+use silvercodes\phpmvc\middlewares\BaseMiddleware;
 
 class Controller {
     public string $layout = 'main';

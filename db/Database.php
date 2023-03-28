@@ -1,7 +1,7 @@
 <?php
 
-namespace app\core\db;
-use app\core\Application;
+namespace silvercodes\phpmvc\db;
+use silvercodes\phpmvc\Application;
 
 class Database {
     public \PDO $pdo;

@@ -1,12 +1,12 @@
 <?php 
 
-namespace app\core;
+namespace silvercodes\phpmvc;
 
 /**
  * class Request
  * 
  * @author Muhammad-Anas-Darwish <muhammadanasdarwish1@gmail.com> 
- * @package app\core
+ * @package silvercodes\phpmvc
 */
 
 class Request 

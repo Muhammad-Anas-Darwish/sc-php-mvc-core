@@ -1,8 +1,8 @@
 <?php
 
-namespace app\core\db;
-use app\core\Model;
-use app\core\Application;
+namespace silvercodes\phpmvc\db;
+use silvercodes\phpmvc\Model;
+use silvercodes\phpmvc\Application;
 
 abstract class DbModel extends Model {
     abstract public function tableName(): string;

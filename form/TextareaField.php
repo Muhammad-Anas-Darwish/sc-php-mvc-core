@@ -1,8 +1,8 @@
 <?php
 
-namespace app\core\form;
+namespace silvercodes\phpmvc\form;
 
-use app\core\Model;
+use silvercodes\phpmvc\Model;
 
 class TextareaField extends BaseField {
 	public function renderInput(): string {
