@@ -1,5 +1,5 @@
 {
-    "name": "sc/php-mvc-core",
+    "name": "silvercodes/php-mvc-core",
     "autoload": {
         "psr-4": {
             "Sc\\PhpMvcCore\\": "src/"
